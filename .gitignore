@@ -1,3 +1,5 @@
+proxy.ini
+
 .pytest_*
 
 # Byte-compiled / optimized / DLL files
