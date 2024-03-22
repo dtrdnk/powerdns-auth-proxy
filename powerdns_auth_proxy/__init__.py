@@ -58,7 +58,7 @@ def create_app(configuration=None):
     if configuration:
         config.read_string(configuration)
     else:
-        config.read("proxy.ini")
+        config.read("config/proxy.ini")
 
     users = split_config_values(config, "user:")
     pdns = split_config_values(config, "pdns")[""]
